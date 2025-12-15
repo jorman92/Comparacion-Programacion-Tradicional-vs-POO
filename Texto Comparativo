@@ -1,0 +1,71 @@
+Diferencias Principales
+
+Programación Tradicional
+
+Enfoque: Funciones independientes
+Datos: Listas simples
+Organización: Secuencial y lineal
+
+Ejemplo:
+python
+def obtener_temperatura():
+    # Lógica de entrada
+
+def calcular_promedio(temperaturas):
+    # Cálculo
+
+Programación Orientada a Objetos
+
+Enfoque: Clases y objetos
+Datos: Encapsulados en clases
+Organización: Basada en interacciones entre objetos
+
+Ejemplo:
+python
+class DiaClima:
+    def __init__(self, dia, temperatura):
+        self.dia = dia
+        self._temperatura = temperatura
+
+class SemanaClima:
+    def agregar_dia(self, dia, temp):
+        # Lógica
+
+Conceptos POO Aplicados
+
+1. Encapsulamiento
+Atributos privados (_temperatura)
+Métodos getter y setter
+Validación dentro de la clase
+
+2. Herencia
+Cada objeto DiaClima es independiente pero sigue el mismo patrón
+
+3. Polimorfismo
+Diferentes objetos pueden ser tratados de manera uniforme
+Métodos que se adaptan al tipo de objeto
+
+4. Composición
+SemanaClima contiene objetos DiaClima
+Relación "tiene un" entre clases
+
+Ventajas de Cada Enfoque
+Aspecto	Tradicional	POO
+
+Simplicidad	✅ Más simple	❌ Más complejo
+Mantenimiento	❌ Difícil en proyectos grandes	✅ Fácil de mantener
+Reutilización	❌ Limitada	✅ Alta reutilización
+Escalabilidad	❌ Limitada	✅ Excelente
+
+Ejecución
+Programación Tradicional:
+bash
+python programacion_tradicional_simple.py
+Programación POO:
+bash
+python programacion_poo_simple.py
+
+Conclusión
+Programación Tradicional: Ideal para proyectos pequeños y simples
+Programación Orientada a Objetos: Mejor para proyectos grandes y complejos
+Ambos enfoques logran el mismo resultado pero con diferentes metodologías
